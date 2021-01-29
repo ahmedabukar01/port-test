@@ -38,7 +38,7 @@ ul li{
     text-transform: uppercase;
 }
 .logo-design{
-    background:var(--primary-color);
+    background:gold;
     padding:30px;
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
     display:inline-block;
@@ -50,16 +50,16 @@ ul li{
 }
 .btn{
     margin-left:50px;
-    background:var(--primary-color);
     padding:12px 30px;
     font-size:17px;
     font-weight: 400;
     letter-spacing: 1px;
     border-radius: 100px;
+    border:2px solid var(--primary-color);
     color:#fff;
 }
 .btn a{
-    color:#fff;
+    color:var(--primary-color);
 }
 
 /* showcase */
@@ -67,12 +67,15 @@ ul li{
 .main{
     display:flex;
     justify-content:space-between;
+    background:url(../images/tic-tac-toe.png);
+    background-position: center;
 }
 .text{
     padding-top:100px;
 }
 .text h1{
-    font-size: 40px;
+    font-size: 45px;
+    padding:2px;
 }
 .text p{
     font-size:22px;
