@@ -62,7 +62,7 @@ ul li{
     color:var(--primary-color);
 }
 
-/* showcase */
+/* showcase section */
 
 .main{
     display:flex;
@@ -107,7 +107,6 @@ ul li{
     top:-170px;
     left:-35px;
 }
-
 .svg-image{
     margin-top:20px;
 }
